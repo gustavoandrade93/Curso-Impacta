@@ -4,21 +4,13 @@ import java.awt.Desktop;
 //import java.awt.Font;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.util.Iterator;
-
 import com.itextpdf.text.Document;
-import com.itextpdf.text.Font;
 import com.itextpdf.text.FontFactory;
 import com.itextpdf.text.Image;
 import com.itextpdf.text.Paragraph;
 import com.itextpdf.text.pdf.PdfPCell;
 import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
-import com.mysql.cj.x.protobuf.MysqlxExpr.DocumentPathItemOrBuilder;
-import com.mysql.cj.xdevapi.Table;
-
-
-
 import br.impacta.model.ProgramadorPhp;
 import br.impacta.model.ProgramadorJava;
 import br.impacta.repository.RepositorioProgramadorJava;
